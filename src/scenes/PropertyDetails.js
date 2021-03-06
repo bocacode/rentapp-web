@@ -13,6 +13,7 @@ function PropertyDetails() {
   if(!propertyData) {
     return <h2>Loading...</h2>
   }
+  
   return <h2>{propertyData.title}</h2>
 }
 
